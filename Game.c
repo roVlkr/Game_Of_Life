@@ -15,6 +15,7 @@
 #include <stdio.h>
 
 
+
 int step(World* w) {
   // Anlegen einer temporären Welt
   byte* tempCells = (byte*) malloc(w->rows*w->cols*sizeof(byte));

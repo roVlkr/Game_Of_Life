@@ -35,7 +35,6 @@ void sleepMillis(int millis);
 int execGame(int rows, int cols, int amount_cells);
 
 
-
 int main(int len, char* args[]) {
   // Grundwerte für die Erzeugung der Welt
   // werden aus den Initialisierungswerten gelesen.
@@ -61,7 +60,6 @@ int main(int len, char* args[]) {
 }
 
 
-
 int execGame(int rows, int cols, int amount_cells) {
   World w;
   w.rows = rows;
@@ -82,9 +80,7 @@ int execGame(int rows, int cols, int amount_cells) {
 }
 
 
-
 void sleepMillis(int millis) {
   struct timespec ts = {millis / 1000, (millis % 1000) * 1000000};
   nanosleep(&ts, NULL);
 }
-
