@@ -2,15 +2,18 @@
   Game.h
   
   Autor: Roland Völker
-  eMail: roland_voelker@web.de
   Datum: 2016-06-05
-  Version: 1
+  Version: 2
   
   Beschreibung: Enthält alle Funktionen zur Simulation der
                 Simulationswelt des "Game of Life".
   
   (c) Alle Rechte vorbehalten.
 */
+
+
+#ifndef GAME_H_
+#define GAME_H_ 
 
 
 typedef unsigned int uint;
@@ -55,4 +58,7 @@ void printWorld(World const* w);
   Füllt die Welt zufällig mit n (= @amount) lebenden Zellen.
 */
 void fillRand(World* w, int amount);
+
+
+#endif
 
