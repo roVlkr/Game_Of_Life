@@ -2,9 +2,8 @@
   Main.c
   
   Autor: Roland Völker
-  eMail: roland_voelker@web.de
   Datum: 2016-06-05
-  Version: 1
+  Version: 2
   
   Beschreibung: -.
   
@@ -53,10 +52,7 @@ int main(int len, char* args[]) {
     }
   }
 
-  if (execGame(rows, cols, amount_cells) == 1)
-    return 1;
-  
-  return 0;
+  return execGame(rows, cols, amount_cells);
 }
 
 
