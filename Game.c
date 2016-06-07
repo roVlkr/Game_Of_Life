@@ -2,7 +2,6 @@
   Game.c
   
   Autor: Roland Völker
-  eMail: roland_voelker@web.de
   Datum: 2016-06-05
   Version: 1
   
